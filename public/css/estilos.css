@@ -1,0 +1,62 @@
+
+.icones{
+    vertical-align: middle;
+}
+
+.campo-digitacao{
+    font-size: 20px;
+    height: 130px;
+    border: 2px solid black;
+}
+
+.frase{
+    font-size: 20px;
+    text-align: left;
+}
+.campo-desativado{
+    border: 2px solid black;
+    background: #C9C5C2;
+}
+.borda-verde{
+    border: 4px solid #3cd017;
+}
+.borda-vermelha{
+    border: 4px solid red;
+}
+
+.placar{ 
+    display: none;
+}
+
+body{
+    overflow: scroll;
+}
+
+#erro{
+    color: red;
+    display: none;
+}
+
+#spinner{
+    display: none;
+}
+
+#frase-id{
+    width: 50px;
+}
+
+#botao-sync{
+    float: right;
+}
+
+.select-usuarios{
+  display: inline-block;
+}
+.selectize-input{
+    width: 150px;
+    vertical-align: middle;
+}
+
+#usuarios{
+    display: block;
+}
